@@ -1,0 +1,34 @@
+.header {
+  width: 100vw;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Gray-700);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.875rem;
+  height: 3rem;
+  gap: 0.75rem;
+}
+
+.title {
+  width: 5.75rem;
+  height: 3rem;
+
+  font-family: "inter", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3rem;
+
+  color: var(--Blue-Dark);
+}
+
+.icon {
+  width: 1.37rem;
+  height: 2.25rem;
+}

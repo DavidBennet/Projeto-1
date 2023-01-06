@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  position: absolute;
+  width: 46rem;
+  height: 3.375rem;
+  top: 173px;
+  left: calc(50% - 46rem/2);
+}
+
+.input {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 0.5rem;
+  border: solid 1px var(--Gray-700);
+
+  background: var(--Gray-500);
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--Gray-200);
+}
+
